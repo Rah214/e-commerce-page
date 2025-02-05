@@ -1,0 +1,8 @@
+// styles/globals.scss
+$primary-color: #0070f3;
+
+body {
+  background-color: $primary-color;
+  font-family: Arial, sans-serif;
+  color: white;
+}

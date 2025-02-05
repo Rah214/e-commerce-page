@@ -1,0 +1,11 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 12, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/Dell/Desktop/RW%20Info/next_03/src/app/page.js"],"sourcesContent":["import Image from \"next/image\";\nimport Link from \"next/link\";\nimport Navbar from \"./components/Navbar\";\n// import \"@/app/styles\"\n\n\nexport default function Home() {\n  return (\n    <div className=\"main\">\n\n    </div>\n  );\n}\n\n\n// remove underline using scss\n"],"names":[],"mappings":";;;;AAAA;AACA;AACA;;;;;AAIe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;;;;;;AAInB,EAGA,8BAA8B"}},
+    {"offset": {"line": 32, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 43, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 43, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
