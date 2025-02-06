@@ -9,14 +9,28 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
-    const [cartCount, setCartCount] = useState(0); // Initialize with 0
+    const [cartCount, setCartCount] = useState(0); // Default cart count is 0
 
-    // ✅ Load cart count from localStorage on the client-side
-    useEffect(() => {
+    // Function to get cart count from localStorage
+    const getCartCount = () => {
         if (typeof window !== "undefined") {
             const localValue = localStorage.getItem("cartCount");
-            setCartCount(localValue ? parseInt(localValue) : 0);
+            return localValue ? parseInt(localValue) : 0;
         }
+        return 0;
+    };
+
+    // Load cart count when component mounts and listen for localStorage updates
+    useEffect(() => {
+        setCartCount(getCartCount());
+
+        // ✅ Listen for changes in localStorage via storage event
+        const handleStorageChange = () => setCartCount(getCartCount());
+
+        window.addEventListener("storage", handleStorageChange);
+
+        // Clean up event listener on unmount
+        return () => window.removeEventListener("storage", handleStorageChange);
     }, []);
 
     return (
