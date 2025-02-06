@@ -11,11 +11,11 @@ import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 const Navbar = () => {
 
     const handleCart = () => {
-        if (typeof window !== 'undefined' && window.localStorage) {
-            let localValue = window.localStorage.getItem('cartCount');
-            return localValue ? parseInt(localValue) : 0;
-        }
-        return 0;
+        // if (typeof window !== 'undefined' && window.localStorage) {
+        //     let localValue = window.localStorage.getItem('cartCount');
+        //     return localValue ? parseInt(localValue) : 0;
+        // }
+        // return 0;
     };
 
     const [cartCount, setCartCount] = useState(handleCart());

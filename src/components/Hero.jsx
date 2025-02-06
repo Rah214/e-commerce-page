@@ -12,16 +12,16 @@ import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 const Hero = () => {
 
     const handleCart = () => {
-        if (typeof window !== 'undefined' && window.localStorage) {
-            let localValue = window.localStorage.getItem('cartCount');
-            return localValue ? parseInt(localValue) : 0;
-        }
-        return 0;
+        // if (typeof window !== 'undefined' && window.localStorage) {
+        //     let localValue = window.localStorage.getItem('cartCount');
+        //     return localValue ? parseInt(localValue) : 0;
+        // }
+        // return 0;
     };
 
 
 
-    const [count, setCount] = useState(handleCart());
+    const [count, setCount] = useState(handleCart() || 0);
     const [shoe, setShoe] = useState("/shoes.png");
 
     const increment = () => setCount(count + 1);
