@@ -46,7 +46,7 @@ const Hero = () => {
                 pauseOnHover: false
             });
 
-            setCount(0);
+            // setCount(0);
         }
     };
 
