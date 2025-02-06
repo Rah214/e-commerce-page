@@ -45,7 +45,7 @@ $animation-duration: 2s;
   transition: background-color 0.3s ease;
 
   &:hover {
-    background-color: darken($primary-color, 10%);
+    background-color: $primary-color;
   }
 }
 
