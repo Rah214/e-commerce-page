@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/Dell/Desktop/RW%20Info/next_03/src/app/not-found.jsx"],"sourcesContent":["import React from 'react';\r\nimport './not-found.scss';\r\nimp\r\n\r\nconst NotFound = () => {\r\n  return (\r\n    <div className=\"not-found-container\">\r\n      <div className=\"not-found-content\">\r\n        <h1 className=\"not-found-title\">404</h1>\r\n        <p className=\"not-found-message\">Oops! The page you're looking for doesn't exist.</p>\r\n        <a href=\"/\" className=\"not-found-button\">Go Home</a>\r\n      </div>\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default NotFound;"],"names":[],"mappings":";;;;AAAA;;;;AAEA;AAEA,MAAM,WAAW;IACf,qBACE,8OAAC;QAAI,WAAU;kBACb,cAAA,8OAAC;YAAI,WAAU;;8BACb,8OAAC;oBAAG,WAAU;8BAAkB;;;;;;8BAChC,8OAAC;oBAAE,WAAU;8BAAoB;;;;;;8BACjC,8OAAC;oBAAE,MAAK;oBAAI,WAAU;8BAAmB;;;;;;;;;;;;;;;;;AAIjD;uCAEe"}},
+    {"offset": {"line": 60, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

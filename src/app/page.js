@@ -1,6 +1,6 @@
 "use client";
 // import "@/app/styles"
-import Hero from '@/components/Hero';
+import Hero from '@/components/hero/Hero';
 import '@fortawesome/fontawesome-svg-core/styles.css'; 
 
 

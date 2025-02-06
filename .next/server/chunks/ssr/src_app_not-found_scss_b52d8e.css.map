@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/app/not-found.scss.css"],"sourcesContent":[".not-found-container{display:flex;justify-content:center;align-items:center;height:100vh;background-color:#f5f5f5;font-family:\"Arial\",sans-serif}.not-found-content{text-align:center;animation:fadeIn 2s ease-in-out}.not-found-title{font-size:8rem;font-weight:bold;color:#2c3e50;margin:0;animation:bounce 2s infinite}.not-found-message{font-size:1.5rem;color:#2c3e50;margin:1rem 0}.not-found-button{display:inline-block;padding:.75rem 1.5rem;font-size:1rem;color:#fff;background-color:#3498db;border-radius:5px;text-decoration:none;transition:background-color .3s ease}.not-found-button:hover{background-color:rgb(33.1380753138,125.1882845188,186.8619246862)}@keyframes fadeIn{0%{opacity:0;transform:translateY(-20px)}100%{opacity:1;transform:translateY(0)}}@keyframes bounce{0%,20%,50%,80%,100%{transform:translateY(0)}40%{transform:translateY(-30px)}60%{transform:translateY(-15px)}}"],"names":[],"mappings":"AAAA;;;;;;;;;AAAiJ;;;;;AAAqE;;;;;;;;AAAqG;;;;;;AAAgE;;;;;;;;;;;AAA4L;;;;AAA0F;;;;;;;;;;;;AAAmG"}},
+    {"offset": {"line": 69, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

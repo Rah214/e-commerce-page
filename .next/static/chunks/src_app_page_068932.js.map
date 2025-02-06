@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/Dell/Desktop/RW%20Info/next_03/src/app/page.js"],"sourcesContent":["\"use client\";\n// import \"@/app/styles\"\nimport Hero from '@/components/Hero';\nimport '@fortawesome/fontawesome-svg-core/styles.css'; \n\n\nexport default function Home() {\n  return (\n    <div>\n      <Hero/>\n    </div>\n  );\n}\n\n\n"],"names":[],"mappings":";;;;;;;;;AAAA;;;;AAMe,SAAS;IACtB,qBACE,6LAAC;kBACC,cAAA,6LAAC;;;;;;;;;;AAGP;KANwB"}},
+    {"offset": {"line": 39, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

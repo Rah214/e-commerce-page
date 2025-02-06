@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/components/hero/Counter.module.scss.module.css"],"sourcesContent":[".main{display:flex;gap:35px;flex-wrap:wrap;justify-content:center}.counter{display:flex;align-items:center;justify-content:center;border-radius:5px;background-color:#f7f8fd;overflow:hidden;width:180px;height:50px;flex-wrap:wrap}@media(max-width: 480px){.counter{width:150px;height:45px}}.button{background-color:#f7f8fd;padding:10px;color:#ff7d1b;border:none;font-size:24px;cursor:pointer;user-select:none;outline:none}@media(max-width: 480px){.button{font-size:20px;padding:8px}}.button2{background-color:#ff7d1b;display:flex;align-items:center;cursor:pointer;gap:22px;padding:10px 92px;color:#fff;font-size:16px;font-weight:700;line-height:26px;border:none;border-radius:5px}.button2:hover{background-color:#d86b17}@media(max-width: 768px){.button2{padding:10px 60px}}@media(max-width: 480px){.button2{padding:8px 40px;font-size:14px}}.value{font-size:24px;font-weight:bold;padding:0 20px;text-align:center;color:#000}@media(max-width: 480px){.value{font-size:20px;padding:0 10px}}"],"names":[],"mappings":"AAAA;;;;;;;AAAkE;;;;;;;;;;;;AAAkK;EAAyB;;;;;;AAAkC;;;;;;;;;;;AAAoI;EAAyB;;;;;;AAAoC;;;;;;;;;;;;;;;AAAqM;;;;AAAwC;EAAyB;;;;;AAA4B;EAAyB;;;;;;AAA0C;;;;;;;;AAAmF;EAAyB"}},
+    {"offset": {"line": 91, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

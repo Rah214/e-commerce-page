@@ -1,0 +1,85 @@
+/* [project]/src/components/navbar/Navbar.scss.css [app-client] (css) */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  max-width: 1174px;
+  padding: 0 2px;
+  height: 64px;
+  margin: auto;
+  padding-top: 14px;
+  border-bottom: 1px solid #d8d6d6;
+}
+
+.navbar__cart {
+  position: relative;
+  display: inline-block;
+}
+
+.navbar__cart-count {
+  position: absolute;
+  top: -12px;
+  right: -15px;
+  background: red;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 3px 6px;
+  border-radius: 100%;
+}
+
+.navbar__section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar__icons {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.navbar__icons__icon {
+  height: 25px;
+  width: 25px;
+}
+
+.navbar__image {
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+}
+
+.navbar__main {
+  display: flex;
+  justify-content: left;
+}
+
+.navbar__menu {
+  margin-left: 92px;
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.navbar__menu-item {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  color: #6b6b6b;
+}
+
+@media (width <= 614px) {
+  .navbar__menu {
+    display: none;
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=src_components_navbar_Navbar_scss_b52d8e.css.map*/

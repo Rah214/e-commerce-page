@@ -61,7 +61,7 @@ $border-color: #D8D6D6;
         display: flex;
         justify-content: left;
 
- 
+
     }
 
     &__menu {
@@ -84,26 +84,9 @@ $border-color: #D8D6D6;
 
 
 
-@media (max-width:614px){
-    .navbar__menu{
+@media (max-width:614px) {
+    .navbar__menu {
         display: none;
         width: 100%;
     }
 }
-
-// .navbar__cart {
-//     position: relative;
-//     display: inline-block;
-// }
-
-// .navbar__cart-count {
-//     position: absolute;
-//     top: -5px;
-//     right: -10px;
-//     background: red;
-//     color: white;
-//     font-size: 12px;
-//     font-weight: bold;
-//     padding: 4px 8px;
-//     border-radius: 50%;
-// }

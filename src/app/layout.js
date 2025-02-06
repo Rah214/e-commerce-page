@@ -1,5 +1,5 @@
 // import Hero from "@/components/Hero";
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/navbar/Navbar";
 // import { Geist, Geist_Mono } from "next/font/google";
 // import "./globals.css";
 // import "./home.module.scss"  
