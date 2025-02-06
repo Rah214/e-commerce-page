@@ -11,16 +11,16 @@ import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
 const Hero = () => {
 
-    const handleCart=()=>{
-       let localValue= localStorage.getItem('cartCount')
-       if(!localValue || localValue == null && undefined){
-        return 0
-       } else{
-        return parseInt(localValue)
-       }
-    }
+    const handleCart = () => {
+        if (typeof window !== 'undefined' && window.localStorage) {
+            let localValue = window.localStorage.getItem('cartCount');
+            return localValue ? parseInt(localValue) : 0;
+        }
+        return 0;
+    };
 
-    
+
+
     const [count, setCount] = useState(handleCart());
     const [shoe, setShoe] = useState("/shoes.png");
 
@@ -49,7 +49,7 @@ const Hero = () => {
             setCount(0)
         }
     };
-    
+
     return (
         <>
             <section>
@@ -57,7 +57,7 @@ const Hero = () => {
 
 
                     <div className="container_shoe">
-                        <Image src={shoe} width={489} height={547} alt="shoe-image" className="container_simage"/>
+                        <Image src={shoe} width={489} height={547} alt="shoe-image" className="container_simage" />
 
                         <div className="container_shoe2">
 
@@ -99,18 +99,18 @@ const Hero = () => {
 
                         <div className="toast">
 
-                        <div className={styles.main}>
-                            <div className={styles.counter}>
-                                <button className={styles.button} onClick={decrement}>-</button>
-                                <div className={styles.value}>{count}</div>
-                                <button className={styles.button} onClick={increment}>+</button>
-                            </div>
+                            <div className={styles.main}>
+                                <div className={styles.counter}>
+                                    <button className={styles.button} onClick={decrement}>-</button>
+                                    <div className={styles.value}>{count}</div>
+                                    <button className={styles.button} onClick={increment}>+</button>
+                                </div>
 
-                            <button onClick={cart} className={styles.button2}>
-                                <FontAwesomeIcon icon={faShoppingCart} /> Add to cart
-                            </button>
-                                <ToastContainer/>
-                        </div>
+                                <button onClick={cart} className={styles.button2}>
+                                    <FontAwesomeIcon icon={faShoppingCart} /> Add to cart
+                                </button>
+                                <ToastContainer />
+                            </div>
                         </div>
 
                     </div>
@@ -121,5 +121,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-// if once quantity is added to cart and click on the add to cart button then counter must be going to zero.

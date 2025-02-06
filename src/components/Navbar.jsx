@@ -9,21 +9,21 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
-    
-    const handleCart=()=>{
-        let localValue = localStorage.getItem('cartCount')
-        if(!localValue || localValue == null && undefined){
-            return 0
-        } else{
-            return parseInt(localValue)
+
+    const handleCart = () => {
+        if (typeof window !== 'undefined' && window.localStorage) {
+            let localValue = window.localStorage.getItem('cartCount');
+            return localValue ? parseInt(localValue) : 0;
         }
-    }
+        return 0;
+    };
+
     const [cartCount, setCartCount] = useState(handleCart());
 
     useEffect(() => {
-     setInterval(() => {
-        setCartCount(handleCart())
-     } );
+        setInterval(() => {
+            setCartCount(handleCart())
+        });
     }, []);
 
     return (
