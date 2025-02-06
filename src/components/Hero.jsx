@@ -23,15 +23,15 @@ const Hero = () => {
     const decrement = () => setCount(count > 0 ? count - 1 : 0);
 
     const cart = () => {
-        if (count === 0) {
-            toast.error("Cart is empty, please enter the quantity", {
-                position: "bottom-right",
-                autoClose: 2000,
-                hideProgressBar: false,
-                closeOnClick: true,
-                pauseOnHover: false
-            });
-        } else {
+        // if (count === 0) {
+        //     toast.error("Cart is empty, please enter the quantity", {
+        //         position: "bottom-right",
+        //         autoClose: 2000,
+        //         hideProgressBar: false,
+        //         closeOnClick: true,
+        //         pauseOnHover: false
+        //     });
+        // } else {
             // Update localStorage immediately
             localStorage.setItem("cartCount", count);
 
@@ -47,7 +47,7 @@ const Hero = () => {
             });
 
             // setCount(0);
-        }
+        // }
     };
 
     return (
