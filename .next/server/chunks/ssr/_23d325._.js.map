@@ -1,9 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/Dell/Desktop/RW%20Info/next_03/src/app/page.js"],"sourcesContent":["import Image from \"next/image\";\nimport styles from \"./page.module.css\";\nimport Link from \"next/link\";\n// import \"@/app/styles\"\n\n\nexport default function Home() {\n  return (\n    <>\n         <ul className=\"nav\">\n         <Link href={'/'} className=\"nav__link\">Home</Link>\n         <Link href={'/about'} className=\"nav__link\">About</Link>\n         <Link href={'/contact'} className=\"nav__link\"> Contact</Link>\n         <Link href={'/help'}  className=\"nav__link\"> Help</Link>\n        \n\n        </ul>\n\n    </>\n  );\n}\n\n\n// remove underline using scss\n"],"names":[],"mappings":";;;;AAAA;;;;;;AAEA;;;;;AAIe,SAAS;IACtB,qBACE;kBACK,cAAA,8OAAC;YAAG,WAAU;;8BACd,8OAAC,4JAAA,CAAA,UAAI;oBAAC,MAAM;oBAAK,WAAU;8BAAY;;;;;;8BACvC,8OAAC,4JAAA,CAAA,UAAI;oBAAC,MAAM;oBAAU,WAAU;8BAAY;;;;;;8BAC5C,8OAAC,4JAAA,CAAA,UAAI;oBAAC,MAAM;oBAAY,WAAU;8BAAY;;;;;;8BAC9C,8OAAC,4JAAA,CAAA,UAAI;oBAAC,MAAM;oBAAU,WAAU;8BAAY;;;;;;;;;;;;;AAOrD,EAGA,8BAA8B"}},
-    {"offset": {"line": 71, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
-    {"offset": {"line": 82, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
-    {"offset": {"line": 82, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}

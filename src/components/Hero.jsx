@@ -20,6 +20,7 @@ const Hero = () => {
        }
     }
 
+    
     const [count, setCount] = useState(handleCart());
     const [shoe, setShoe] = useState("/shoes.png");
 

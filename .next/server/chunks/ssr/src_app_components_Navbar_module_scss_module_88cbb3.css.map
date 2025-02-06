@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/Dell/Desktop/RW%20Info/next_03/src/app/components/Navbar.module.scss.module.css"],"sourcesContent":[".navbar{background-color:#333;padding:1rem;display:flex;justify-content:center;align-items:center}.navbar__link{text-align:center;text-decoration:none}"],"names":[],"mappings":"AAAA;;;;;;;;AAAkG"}},
-    {"offset": {"line": 13, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}

@@ -11,7 +11,7 @@ import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 const Navbar = () => {
     
     const handleCart=()=>{
-        let localValue= localStorage.getItem('cartCount')
+        let localValue = localStorage.getItem('cartCount')
         if(!localValue || localValue == null && undefined){
             return 0
         } else{

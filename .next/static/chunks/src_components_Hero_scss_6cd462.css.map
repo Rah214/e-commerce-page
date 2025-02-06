@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/Dell/Desktop/RW%20Info/next_03/src/components/Hero.scss.css"],"sourcesContent":["*{margin:0;padding:0}.container{padding-top:115px;max-width:1174px;padding-right:4px;padding-left:4px;display:flex;margin:auto;justify-content:space-between}.container_text{padding-top:18px;font-size:18px;background-color:rgba(0,0,255,.269);max-width:574px;max-height:547px;display:flex;flex-direction:column;gap:35px}.container_text_para{font-size:14px;font-weight:500;line-height:24px;text-align:left;color:#ff7d1b;text-transform:uppercase}.container_text_para2{font-size:16px;font-weight:400;line-height:30px;color:#6b6b6b}.container_text_head{font-size:40px;font-weight:700;line-height:70px}.container_text_head2{display:flex;flex-direction:column;gap:17px}.container_dollar{display:flex;gap:25px;align-items:center}.container_dollar_heading{font-size:36px;font-weight:700;line-height:30px}.container_dollar_heading1{font-size:16px;font-weight:700;line-height:26px;padding:6px 12px;color:#ff7d1b;background-color:#faefe6}.container_para3{color:#6b6b6b;font-size:16px;font-weight:700;line-height:26px}"],"names":[],"mappings":"AAAA;;;;;AAAqB;;;;;;;;;;AAAwI;;;;;;;;;;;AAAiK;;;;;;;;;AAA4H;;;;;;;AAAoF;;;;;;AAAqE;;;;;;AAAkE;;;;;;AAA2D;;;;;;AAA0E;;;;;;;;;AAAmI"}},
-    {"offset": {"line": 82, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}
